@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run -A index.ts"
+  },
+  "imports": {
+    "@libs/xml": "jsr:@libs/xml@^6.0.0",
+    "@std/cli": "jsr:@std/cli@^1.0.6",
+    "neverthrow": "npm:neverthrow@^8.1.1"
+  }
+}

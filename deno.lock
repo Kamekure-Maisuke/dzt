@@ -1,0 +1,34 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@libs/xml@6": "6.0.0",
+    "jsr:@std/cli@^1.0.6": "1.0.6",
+    "npm:neverthrow@^8.1.1": "8.1.1"
+  },
+  "jsr": {
+    "@libs/xml@6.0.0": {
+      "integrity": "d629f461bc10598de9ad55470f3b7c9bf1707cc2b90be9603a129259b8e5d0a5"
+    },
+    "@std/cli@1.0.6": {
+      "integrity": "d22d8b38c66c666d7ad1f2a66c5b122da1704f985d3c47f01129f05abb6c5d3d"
+    }
+  },
+  "npm": {
+    "@rollup/rollup-linux-x64-gnu@4.24.0": {
+      "integrity": "sha512-ZXFk7M72R0YYFN5q13niV0B7G8/5dcQ9JDp8keJSfr3GoZeXEoMHP/HlvqROA3OMbMdfr19IjCeNAnPUG93b6A=="
+    },
+    "neverthrow@8.1.1": {
+      "integrity": "sha512-DpbZ/UDI0B+TxJB1JysXSfi1++3YK2xLBqQLTlRN0b4zxlZ2MoiB+dKKV8dMRzt1fAFjRKDknXOVJgpl+a4Amw==",
+      "dependencies": [
+        "@rollup/rollup-linux-x64-gnu"
+      ]
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@libs/xml@6",
+      "jsr:@std/cli@^1.0.6",
+      "npm:neverthrow@^8.1.1"
+    ]
+  }
+}
